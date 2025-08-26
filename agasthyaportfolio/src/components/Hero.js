@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './Hero.css';
 
 const Hero = () => {
-  const roles = ['Innovator', 'Designer', 'Thinker', 'Solver'];
+  const roles = useMemo(() => ['Innovator', 'Designer', 'Thinker', 'Solver'], []);
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
