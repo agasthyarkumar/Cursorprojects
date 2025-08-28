@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Cursorprojects/static/css/main.a8c50eae.css",
-    "main.js": "/Cursorprojects/static/js/main.2d6102fd.js",
-    "static/js/453.2fb225d4.chunk.js": "/Cursorprojects/static/js/453.2fb225d4.chunk.js",
-    "index.html": "/Cursorprojects/index.html",
-    "main.a8c50eae.css.map": "/Cursorprojects/static/css/main.a8c50eae.css.map",
-    "main.2d6102fd.js.map": "/Cursorprojects/static/js/main.2d6102fd.js.map",
-    "453.2fb225d4.chunk.js.map": "/Cursorprojects/static/js/453.2fb225d4.chunk.js.map"
+    "main.css": "/Agastya-R-Kumar/static/css/main.a8c50eae.css",
+    "main.js": "/Agastya-R-Kumar/static/js/main.526210c7.js",
+    "static/js/453.2fb225d4.chunk.js": "/Agastya-R-Kumar/static/js/453.2fb225d4.chunk.js",
+    "index.html": "/Agastya-R-Kumar/index.html",
+    "main.a8c50eae.css.map": "/Agastya-R-Kumar/static/css/main.a8c50eae.css.map",
+    "main.526210c7.js.map": "/Agastya-R-Kumar/static/js/main.526210c7.js.map",
+    "453.2fb225d4.chunk.js.map": "/Agastya-R-Kumar/static/js/453.2fb225d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8c50eae.css",
-    "static/js/main.2d6102fd.js"
+    "static/js/main.526210c7.js"
   ]
 }
