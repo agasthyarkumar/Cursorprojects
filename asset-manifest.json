@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agasthyaportfolio/static/css/main.a8c50eae.css",
+    "main.js": "/agasthyaportfolio/static/js/main.069540fb.js",
+    "static/js/453.2fb225d4.chunk.js": "/agasthyaportfolio/static/js/453.2fb225d4.chunk.js",
+    "index.html": "/agasthyaportfolio/index.html",
+    "main.a8c50eae.css.map": "/agasthyaportfolio/static/css/main.a8c50eae.css.map",
+    "main.069540fb.js.map": "/agasthyaportfolio/static/js/main.069540fb.js.map",
+    "453.2fb225d4.chunk.js.map": "/agasthyaportfolio/static/js/453.2fb225d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8c50eae.css",
+    "static/js/main.069540fb.js"
+  ]
+}
