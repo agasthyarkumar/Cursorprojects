@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Agastya-R-Kumar/static/css/main.a8c50eae.css",
-    "main.js": "/Agastya-R-Kumar/static/js/main.526210c7.js",
-    "static/js/453.2fb225d4.chunk.js": "/Agastya-R-Kumar/static/js/453.2fb225d4.chunk.js",
-    "index.html": "/Agastya-R-Kumar/index.html",
-    "main.a8c50eae.css.map": "/Agastya-R-Kumar/static/css/main.a8c50eae.css.map",
-    "main.526210c7.js.map": "/Agastya-R-Kumar/static/js/main.526210c7.js.map",
-    "453.2fb225d4.chunk.js.map": "/Agastya-R-Kumar/static/js/453.2fb225d4.chunk.js.map"
+    "main.css": "/Agasthya-R-Kumar/static/css/main.a8c50eae.css",
+    "main.js": "/Agasthya-R-Kumar/static/js/main.e3cd40dd.js",
+    "static/js/453.2fb225d4.chunk.js": "/Agasthya-R-Kumar/static/js/453.2fb225d4.chunk.js",
+    "index.html": "/Agasthya-R-Kumar/index.html",
+    "main.a8c50eae.css.map": "/Agasthya-R-Kumar/static/css/main.a8c50eae.css.map",
+    "main.e3cd40dd.js.map": "/Agasthya-R-Kumar/static/js/main.e3cd40dd.js.map",
+    "453.2fb225d4.chunk.js.map": "/Agasthya-R-Kumar/static/js/453.2fb225d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8c50eae.css",
-    "static/js/main.526210c7.js"
+    "static/js/main.e3cd40dd.js"
   ]
 }
