@@ -23,15 +23,36 @@ const Contact = () => {
     setIsSubmitting(true);
     setSubmitStatus('');
 
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      const response = await fetch('http://localhost:5000/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+        // Clear success message after 5 seconds
+        setTimeout(() => setSubmitStatus(''), 5000);
+      } else {
+        setSubmitStatus('error');
+        console.error('Submission failed:', result.message);
+        // Clear error message after 5 seconds
+        setTimeout(() => setSubmitStatus(''), 5000);
+      }
+    } catch (error) {
+      console.error('Network error:', error);
+      setSubmitStatus('error');
+      // Clear error message after 5 seconds
+      setTimeout(() => setSubmitStatus(''), 5000);
+    } finally {
       setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-      
-      // Clear success message after 3 seconds
-      setTimeout(() => setSubmitStatus(''), 3000);
-    }, 1500);
+    }
   };
 
   const contactInfo = [
@@ -204,6 +225,12 @@ const Contact = () => {
               {submitStatus === 'success' && (
                 <div className="form-message success">
                   Thank you! Your message has been sent successfully. I'll get back to you soon!
+                </div>
+              )}
+              
+              {submitStatus === 'error' && (
+                <div className="form-message error">
+                  Sorry! There was an error sending your message. Please try again or contact me directly via email.
                 </div>
               )}
             </form>
