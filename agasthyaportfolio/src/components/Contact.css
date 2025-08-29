@@ -241,6 +241,12 @@
   border: 1px solid #bbf7d0;
 }
 
+.form-message.error {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+
 /* Responsive Design */
 @media (max-width: 992px) {
   .contact-content {
